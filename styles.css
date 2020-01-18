@@ -1,0 +1,40 @@
+body {
+  background: #d8d8d8;
+  font-family: 'Raleway', sans-serif;
+}
+
+svg {
+  background: white;
+  display: block;
+  margin: auto;
+}
+
+.y.axis g line{
+  opacity: 0;
+}
+
+.tooltip {
+  position: absolute;
+  margin: auto;
+  padding: 0;
+  font-size: 0.75em;
+  background: white;
+  border: 1px solid black;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+
+.tooltip p {
+  margin: 0;
+  padding: 0;
+}
+
+rect {
+  cursor: pointer;
+}
+
+.date {
+  font-weight: 900;
+  font-size: 1.25em;
+  text-align: center;
+}
